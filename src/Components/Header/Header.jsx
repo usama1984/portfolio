@@ -3,6 +3,7 @@ import './Header.css'
 import CTA from './CTA/Cta'
 import ME from '../../assets/me2.png'
 import HeaderSocials from './HeaderSocials/HeaderSocials'
+import logo from '../../assets/Usama-Logo-croped.png'
 
 const Header = () => {
   return (

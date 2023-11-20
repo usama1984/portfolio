@@ -3,11 +3,15 @@ import './Footer.css'
 import { FaFacebookF } from 'react-icons/fa'
 import { FiInstagram } from 'react-icons/fi'
 import { IoLogoTwitter } from 'react-icons/io'
+import logo from '../../assets/Usama-Logo-croped.png'
 
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer__logo'>Muhammad Usama</a>
+      <a href='#' className='footer__logo'>
+      <img src={logo} alt='Me' />
+      </a>
+
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>

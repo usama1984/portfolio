@@ -8,7 +8,7 @@ function App() {
       <Nav></Nav>
       <About></About>
       <Experience></Experience>
-      <Services></Services>
+      {/* <Services></Services> */}
       <Portfolio></Portfolio>
       <Testimonials></Testimonials>
       <Contact></Contact>
