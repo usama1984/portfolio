@@ -3,14 +3,18 @@ import './Header.css'
 import CTA from './CTA/Cta'
 import ME from '../../assets/me2.png'
 import HeaderSocials from './HeaderSocials/HeaderSocials'
-import logo from '../../assets/Usama-Logo-croped.png'
+import logo from '../../assets/logo-header.png'
+
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Muhammad Usama</h1>
+        <div className='header__logo'>
+          <img src={logo} alt='Me' />
+        </div>
+        {/* <h1>Muhammad Usama</h1> */}
         <h5 className='text-light'>Full Stack Developer</h5>
         <CTA />
         <HeaderSocials />

@@ -10,6 +10,12 @@ header{
     position: relative;
 }
 
+.header__logo{
+    /* font-size: 3rem;
+    font-weight: 800; */
+    margin-top: 1rem;
+    display: inline-block;
+}
 /* CTA buttons */
 
 .cta{
