@@ -172,7 +172,7 @@ const Portfolio = () => {
 
       <Tab.Group>
         <div className="w-full flex justify-center">
-          <Tab.List className="flex space-x-1 w-2/4 rounded-xl bg-blue-400 p-1">
+          <Tab.List className="flex space-x-1 w-3/4 md:w-2/4 rounded-xl bg-blue-400 p-1">
             {Object.keys(categories).map((category) => (
               <Tab
                 key={category}
